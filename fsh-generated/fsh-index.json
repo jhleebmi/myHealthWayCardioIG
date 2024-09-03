@@ -1,0 +1,10 @@
+[
+  {
+    "outputFile": "ValueSet-CABGStatus.json",
+    "fshName": "CABGStatus",
+    "fshType": "ValueSet",
+    "fshFile": "MyHealthWayBodySurface.fsh",
+    "startLine": 3,
+    "endLine": 27
+  }
+]

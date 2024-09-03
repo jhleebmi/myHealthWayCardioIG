@@ -1,0 +1,38 @@
+# ╭─────────────────────────────────ImplementationGuide-fish.json──────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: myhealthwaycancer
+canonical: http://example.org/fhir/myhealthwaycancer
+version: 0.1.0
+name: MyHealthWayCancerImplementationGuide
+title: MyHealthWay Cancer Implementation Guide
+status: draft
+publisher: Jaehoon Lee
+contact:
+  - name: Jaehoon Lee
+    telecom:
+      - system: email
+        value: jhlee.bmi@gmail.com
+description: MyHealthWay Cancer Implementation Guide
+license: CC0-1.0
+fhirVersion: 4.0.1
+parameters:
+  apply-publisher: true
+  apply-contact: true
+  show-inherited-invariants: false
+copyrightYear: 2024+
+releaseLabel: ci-build
+dependencies:
+  kr.mohw.myhealthway: 1.0.1
+  
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  IG Home: index.html
+  Table of Contents: toc.html
+  Artifacts Summary: artifacts.html
+  Other Resources:
+    "FHIR Spec ": new-tab {{site.data.fhir.path}}index.html

@@ -1,0 +1,80 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "myhealthwaycancer",
+  "url": "http://example.org/fhir/myhealthwaycancer/ImplementationGuide/myhealthwaycancer",
+  "version": "0.1.0",
+  "name": "MyHealthWayCancerImplementationGuide",
+  "title": "MyHealthWay Cancer Implementation Guide",
+  "status": "draft",
+  "contact": [
+    {
+      "name": "Jaehoon Lee",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "jhlee.bmi@gmail.com"
+        }
+      ]
+    }
+  ],
+  "description": "MyHealthWay Cancer Implementation Guide",
+  "packageId": "myhealthwaycancer",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "kr.mohw.myhealthway",
+      "version": "1.0.1",
+      "uri": "https://hins.or.kr/fhir/MyHealthWay/ImplementationGuide/kr.mohw.myhealthway",
+      "id": "kr_mohw_myhealthway"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "ValueSet/CABGStatus"
+        },
+        "name": "CABG Status",
+        "description": "Coronary Artery Bypass Status",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      },
+      {
+        "code": "apply-publisher",
+        "value": "true"
+      },
+      {
+        "code": "apply-contact",
+        "value": "true"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "false"
+      }
+    ]
+  }
+}
