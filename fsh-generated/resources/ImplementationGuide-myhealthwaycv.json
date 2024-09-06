@@ -1,0 +1,152 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "myhealthwaycv",
+  "url": "http://example.org/fhir/myhealthwaycv/ImplementationGuide/myhealthwaycv",
+  "version": "0.1.0",
+  "name": "MyHealthWayCardioImplementationGuide",
+  "title": "MyHealthWay CardioVascular Information Exchange Implementation Guide",
+  "status": "draft",
+  "contact": [
+    {
+      "name": "Jaehoon Lee",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "jhlee.bmi@gmail.com"
+        }
+      ]
+    }
+  ],
+  "description": "MyHealthWay CardioVascular Information Exchange Implementation Guide",
+  "packageId": "myhealthwaycv",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "kr.mohw.myhealthway",
+      "version": "1.0.1",
+      "uri": "https://hins.or.kr/fhir/MyHealthWay/ImplementationGuide/kr.mohw.myhealthway",
+      "id": "kr_mohw_myhealthway"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "ValueSet/myhealthway-cv-cabgindication"
+        },
+        "name": "CABG Indication",
+        "description": "ACC coronary artery bypass graft (CABG) Indications",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/myhealthway-cv-cabgstatus"
+        },
+        "name": "CABG Status",
+        "description": "Coronary Artery Bypass Status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/myhealthway-cv-cardiacarrest"
+        },
+        "name": "Cardiac Arrest",
+        "description": "All SNOMED Codes related to Cardiac Arrest",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/myhealthway-cv-cerebrovasculardisease"
+        },
+        "name": "Cerebrovascular Disease",
+        "description": "All SNOMED Codes that are Cerebrovascular Disease",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/myhealthway-cv-chroniclungdisease"
+        },
+        "name": "Chronic Lung Disease",
+        "description": "Chronic Lung Disease as defined by ACC",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/myhealthway-cv-dyslipidemia"
+        },
+        "name": "Dyslipidemia",
+        "description": "All SNOMED Codes that are Dyslipidemia",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/myhealthway-cv-functionalcapacity"
+        },
+        "name": "Functional Capacity",
+        "description": "Functional Capacity in METS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/myhealthway-cv-heartfailure"
+        },
+        "name": "Heart Failure codes from SNOMED",
+        "description": "All SNOMED Codes that are Heart Failure",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/myhealthway-cv-newyorkheartassociation"
+        },
+        "name": "New York Heart Association Assessment Scale",
+        "description": "Includes codes from SNOMED and LOINC",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/myhealthway-cv-smokingstatus"
+        },
+        "name": "Smoking Status",
+        "description": "* ^experimental = true\nPatient's smoking status.  \nIncludes all SNOMED codes related to smoking status under 'Finding of tobacco use and exposure (finding)'",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      },
+      {
+        "code": "apply-publisher",
+        "value": "true"
+      },
+      {
+        "code": "apply-contact",
+        "value": "true"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "false"
+      }
+    ]
+  }
+}

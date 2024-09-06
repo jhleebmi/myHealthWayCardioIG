@@ -3,11 +3,11 @@
 # │  supported properties, see:                                                                    │
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: myhealthwaycancer
-canonical: http://example.org/fhir/myhealthwaycancer
+id: myhealthwaycv
+canonical: http://example.org/fhir/myhealthwaycv
 version: 0.1.0
-name: MyHealthWayCancerImplementationGuide
-title: MyHealthWay Cancer Implementation Guide
+name: MyHealthWayCardioImplementationGuide
+title: MyHealthWay CardioVascular Information Exchange Implementation Guide
 status: draft
 publisher: Jaehoon Lee
 contact:
@@ -15,7 +15,7 @@ contact:
     telecom:
       - system: email
         value: jhlee.bmi@gmail.com
-description: MyHealthWay Cancer Implementation Guide
+description: MyHealthWay CardioVascular Information Exchange Implementation Guide
 license: CC0-1.0
 fhirVersion: 4.0.1
 parameters:

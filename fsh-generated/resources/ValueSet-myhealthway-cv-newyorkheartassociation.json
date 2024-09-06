@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MyHealthWayCardioNewYorkHeartAssociationQuery",
+  "id": "myhealthway-cv-newyorkheartassociation",
+  "title": "New York Heart Association Assessment Scale",
+  "description": "Includes codes from SNOMED and LOINC",
+  "url": "http://example.org/fhir/myhealthwaycv/ValueSet/myhealthway-cv-newyorkheartassociation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "cic"
+    }
+  ],
+  "version": "1.0.0",
+  "experimental": true,
+  "publisher": "HL7 International / Clinical Interoperability Council",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cic"
+        }
+      ]
+    },
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "cic@lists.hl7.org"
+        }
+      ]
+    },
+    {
+      "name": "Clinical Interoperability Council",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cic"
+        }
+      ]
+    },
+    {
+      "name": "David Pyke",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:David.Pyke@pointclickcare.com"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "US",
+          "system": "urn:iso:std:iso:3166",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "copyright": "* This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement\n* This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "88020-3"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "420816009"
+          },
+          {
+            "code": "762994006"
+          }
+        ]
+      }
+    ]
+  }
+}

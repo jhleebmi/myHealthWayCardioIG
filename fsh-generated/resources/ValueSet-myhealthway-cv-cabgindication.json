@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "CABGStatus",
-  "id": "CABGStatus",
-  "title": "CABG Status",
-  "description": "Coronary Artery Bypass Status",
-  "url": "http://example.org/fhir/myhealthwaycancer/ValueSet/CABGStatus",
+  "name": "MyHealthWayCVCABGIndication",
+  "id": "myhealthway-cv-cabgindication",
+  "title": "CABG Indication",
+  "description": "ACC coronary artery bypass graft (CABG) Indications",
+  "url": "http://example.org/fhir/myhealthwaycv/ValueSet/myhealthway-cv-cabgindication",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -68,16 +68,16 @@
         "system": "http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr",
         "concept": [
           {
-            "code": "100001285"
+            "code": "100000712"
           },
           {
-            "code": "100001286"
+            "code": "100001291"
           },
           {
-            "code": "100001287"
+            "code": "100001292"
           },
           {
-            "code": "100001288"
+            "code": "100000709"
           }
         ]
       }

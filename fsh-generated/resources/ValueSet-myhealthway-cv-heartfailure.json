@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MyHealthWayCardioHeartFailure",
+  "id": "myhealthway-cv-heartfailure",
+  "title": "Heart Failure codes from SNOMED",
+  "description": "All SNOMED Codes that are Heart Failure",
+  "url": "http://example.org/fhir/myhealthwaycv/ValueSet/myhealthway-cv-heartfailure",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "cic"
+    }
+  ],
+  "version": "1.0.0",
+  "experimental": true,
+  "publisher": "HL7 International / Clinical Interoperability Council",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cic"
+        }
+      ]
+    },
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "cic@lists.hl7.org"
+        }
+      ]
+    },
+    {
+      "name": "Clinical Interoperability Council",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cic"
+        }
+      ]
+    },
+    {
+      "name": "David Pyke",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:David.Pyke@pointclickcare.com"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "US",
+          "system": "urn:iso:std:iso:3166",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "84114007"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,2 +1,11 @@
-Output File               Name        Type      FSH File                    Lines
-ValueSet-CABGStatus.json  CABGStatus  ValueSet  MyHealthWayBodySurface.fsh  3 - 27
+Output File                                           Name                                           Type      FSH File                          Lines
+ValueSet-myhealthway-cv-cabgindication.json           MyHealthWayCVCABGIndication                    ValueSet  CABGIndication.fsh                5 - 29
+ValueSet-myhealthway-cv-cabgstatus.json               MyHealthWayCVCABGStatus                        ValueSet  CABGStatus.fsh                    5 - 29
+ValueSet-myhealthway-cv-cardiacarrest.json            MyHealthWayCardioCardiacArrest                 ValueSet  CardiacArrest.fsh                 4 - 26
+ValueSet-myhealthway-cv-cerebrovasculardisease.json   MyHealthWayCardioCerebrovascularDisease        ValueSet  CerebrovascularDisease.fsh        3 - 25
+ValueSet-myhealthway-cv-chroniclungdisease.json       MyHealthWayCardioChronicLungDisease            ValueSet  ChronicLungDisease.fsh            3 - 31
+ValueSet-myhealthway-cv-dyslipidemia.json             MyHealthWayCardioDyslipidemia                  ValueSet  Dyslipidemia.fsh                  3 - 25
+ValueSet-myhealthway-cv-functionalcapacity.json       MyHealthWayCardioFunctionalCapacity            ValueSet  FunctionalCapacity.fsh            5 - 28
+ValueSet-myhealthway-cv-heartfailure.json             MyHealthWayCardioHeartFailure                  ValueSet  HeartFailure.fsh                  3 - 25
+ValueSet-myhealthway-cv-newyorkheartassociation.json  MyHealthWayCardioNewYorkHeartAssociationQuery  ValueSet  NewYorkHeartAssociationQuery.fsh  3 - 27
+ValueSet-myhealthway-cv-smokingstatus.json            MyHealthWayCardioSmokingStatus                 ValueSet  SmokingStatus.fsh                 3 - 27

@@ -1,9 +1,81 @@
 [
   {
-    "outputFile": "ValueSet-CABGStatus.json",
-    "fshName": "CABGStatus",
+    "outputFile": "ValueSet-myhealthway-cv-cabgindication.json",
+    "fshName": "MyHealthWayCVCABGIndication",
     "fshType": "ValueSet",
-    "fshFile": "MyHealthWayBodySurface.fsh",
+    "fshFile": "CABGIndication.fsh",
+    "startLine": 5,
+    "endLine": 29
+  },
+  {
+    "outputFile": "ValueSet-myhealthway-cv-cabgstatus.json",
+    "fshName": "MyHealthWayCVCABGStatus",
+    "fshType": "ValueSet",
+    "fshFile": "CABGStatus.fsh",
+    "startLine": 5,
+    "endLine": 29
+  },
+  {
+    "outputFile": "ValueSet-myhealthway-cv-cardiacarrest.json",
+    "fshName": "MyHealthWayCardioCardiacArrest",
+    "fshType": "ValueSet",
+    "fshFile": "CardiacArrest.fsh",
+    "startLine": 4,
+    "endLine": 26
+  },
+  {
+    "outputFile": "ValueSet-myhealthway-cv-cerebrovasculardisease.json",
+    "fshName": "MyHealthWayCardioCerebrovascularDisease",
+    "fshType": "ValueSet",
+    "fshFile": "CerebrovascularDisease.fsh",
+    "startLine": 3,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-myhealthway-cv-chroniclungdisease.json",
+    "fshName": "MyHealthWayCardioChronicLungDisease",
+    "fshType": "ValueSet",
+    "fshFile": "ChronicLungDisease.fsh",
+    "startLine": 3,
+    "endLine": 31
+  },
+  {
+    "outputFile": "ValueSet-myhealthway-cv-dyslipidemia.json",
+    "fshName": "MyHealthWayCardioDyslipidemia",
+    "fshType": "ValueSet",
+    "fshFile": "Dyslipidemia.fsh",
+    "startLine": 3,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-myhealthway-cv-functionalcapacity.json",
+    "fshName": "MyHealthWayCardioFunctionalCapacity",
+    "fshType": "ValueSet",
+    "fshFile": "FunctionalCapacity.fsh",
+    "startLine": 5,
+    "endLine": 28
+  },
+  {
+    "outputFile": "ValueSet-myhealthway-cv-heartfailure.json",
+    "fshName": "MyHealthWayCardioHeartFailure",
+    "fshType": "ValueSet",
+    "fshFile": "HeartFailure.fsh",
+    "startLine": 3,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-myhealthway-cv-newyorkheartassociation.json",
+    "fshName": "MyHealthWayCardioNewYorkHeartAssociationQuery",
+    "fshType": "ValueSet",
+    "fshFile": "NewYorkHeartAssociationQuery.fsh",
+    "startLine": 3,
+    "endLine": 27
+  },
+  {
+    "outputFile": "ValueSet-myhealthway-cv-smokingstatus.json",
+    "fshName": "MyHealthWayCardioSmokingStatus",
+    "fshType": "ValueSet",
+    "fshFile": "SmokingStatus.fsh",
     "startLine": 3,
     "endLine": 27
   }

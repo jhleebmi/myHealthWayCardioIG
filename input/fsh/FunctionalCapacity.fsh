@@ -1,9 +1,11 @@
+// https://build.fhir.org/ig/HL7/fhir-registry-protocols-ig/artifacts.html#terminology-value-sets
+
 Alias: $ncdr = http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr
 
-ValueSet: CABGStatus
-Id: CABGStatus
-Title: "CABG Status"
-Description: "Coronary Artery Bypass Status"
+ValueSet: MyHealthWayCardioFunctionalCapacity
+Id: myhealthway-cv-functionalcapacity
+Title: "Functional Capacity"
+Description: "Functional Capacity in METS"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
 * ^extension.valueCode = #cic
 * ^version = "1.0.0"
@@ -21,7 +23,6 @@ Description: "Coronary Artery Bypass Status"
 * ^contact[=].telecom.system = #email
 * ^contact[=].telecom.value = "mailto:David.Pyke@pointclickcare.com"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* $ncdr#100001285
-* $ncdr#100001286
-* $ncdr#100001287
-* $ncdr#100001288
+* $ncdr#100014023
+* $ncdr#100014025
+* $ncdr#100014024

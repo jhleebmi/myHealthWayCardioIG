@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MyHealthWayCardioFunctionalCapacity",
+  "id": "myhealthway-cv-functionalcapacity",
+  "title": "Functional Capacity",
+  "description": "Functional Capacity in METS",
+  "url": "http://example.org/fhir/myhealthwaycv/ValueSet/myhealthway-cv-functionalcapacity",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "cic"
+    }
+  ],
+  "version": "1.0.0",
+  "experimental": true,
+  "publisher": "HL7 International / Clinical Interoperability Council",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cic"
+        }
+      ]
+    },
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "cic@lists.hl7.org"
+        }
+      ]
+    },
+    {
+      "name": "Clinical Interoperability Council",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cic"
+        }
+      ]
+    },
+    {
+      "name": "David Pyke",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:David.Pyke@pointclickcare.com"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "US",
+          "system": "urn:iso:std:iso:3166",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/registry-protocols/CodeSystem/ncdr",
+        "concept": [
+          {
+            "code": "100014023"
+          },
+          {
+            "code": "100014025"
+          },
+          {
+            "code": "100014024"
+          }
+        ]
+      }
+    ]
+  }
+}
